@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site </title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <style>
+      
+        @import url('https://fonts.googleapis.com/css2?family= Ysabeau +SC:wght@100;200 & display=swap');
+        * {
+            font-family: 'Ysabeau SC', sans-serif;
+            margin: 0px;
+
+
+        }
+        body {
+            background-color: #DEDEDE;
+        }
+        header {
+            margin: -10px -10px 0px -10px;
+            height: 100px;
+            background-color: #14162E;
+        }
+        header p{
+            font-family: teste;
+        }
+        header >img {
+            margin-top: 10px;
+        }
+        nav {
+            display: block;
+            margin: auto;
+            background-color: #14162E;
+            padding-bottom: 6px;   
+        }
+        nav > a{
+            text-decoration: none;
+            color: #94A9D6;
+            padding-left: 10px;
+        }
+        nav a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+        main {
+            margin: auto;
+            background-color: white;
+            max-width: 800px;
+            min-width: 400px;
+            padding: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.548);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            
+        }
+        main p{
+            text-indent: 15px;
+            text-align: justify;
+            padding: 5px;
+            line-height: 1.6em;
+            font-size: 1em;
+        }
+        h1 {
+            color: #355089;
+            margin: 0px; 
+        }
+        ul {
+            padding: 10px;
+            list-style-position: inside;
+        }
+        img.fundo {
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 7px;
+            
+        }
+        footer{
+            margin-top: 10px;
+            background-color: #355089;
+            margin-right: -10px;
+            margin-left: -10px;
+        }
+        footer >p {
+            color: #94A9D6;
+            text-align: center;
+            padding: 3px 0px 3px 0px;
+        }
+        footer p::before {
+            content: '\00A9';
+            color:#94A9D6 ;
+            padding-right: 5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+       <img src="imagens/logop-removebg-preview.png" alt="">
+
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="index2.html">contato</a>
+        <a href="#">informações</a>
+    </nav>
+    <main>
+        <h1>Site simples</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe possimus aut laborum deserunt fugit commodi et perferendis perspiciatis in enim ullam, doloremque harum quidem necessitatibus. Aliquid officiis nihil rerum laboriosam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste voluptates odio quod ex ipsa veritatis deserunt vitae eveniet aspernatur praesentium ipsam omnis molestiae, possimus sit, excepturi animi, nam fugit consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt magnam, ratione quisquam aut dolores! Cum laborum esse, assumenda saepe voluptatibus vel optio veniam. Repudiandae iste alias sed architecto vero.</p>
+       
+        <picture>
+            <source media="(max-width: 400px)" srcset="imagens/fundop.png" type="image/png">
+            <source media="(max-width:780px )" srcset="imagens/fundom.jpg" type="image/jpg">
+            <img src="imagens/fundo.jpg" class="fundo" alt="computador de fundo">
+        </picture>
+        <ul>
+            <li>curiosidades </li>
+            <li>noticias </li>
+            <li>informações </li>
+        </ul>
+    </main>
+    <footer><p>Paulo</p></footer>
+</body>
+</html>

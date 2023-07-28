@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;400 & family= Ysabeau+SC:wght@100;200 & display=swap');
+@font-face {
+    font-family: 'escrita';
+    src: url(fontes/Autography.otf);
+}
+@font-face {
+    font-family: 'escrita2';
+    src: url(fontes/Best\ Moment.otf);
+}
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+           background-attachment: fixed;
+           background-image: linear-gradient(to bottom right,#0016A6,#0951BD,#0979B3,#0979B3);
+        }
+        h1 {
+            font-size: 1.5em;
+            text-align: center;
+        }
+        form {
+            background-color: #DEDEDE;
+            padding: 10px;
+            margin: auto;
+            background-color: white;
+            width: 40%;
+            min-width: 350px;
+            border-radius: 9px;
+        }
+        input {
+            width: 60%;
+            display: block;
+            margin-top: 5px;
+            border: 1px solid black;
+            padding: 4px ;
+            margin-left: 12px;
+        }    
+        
+        textarea {
+            display: block;
+            margin: auto;
+            width: 90%;
+            height: 300px;
+            margin-top: 5px;
+            padding: 7px;
+        }
+        button {
+            cursor: pointer;
+            margin:5px auto;
+            display: block;
+            width: 200px;
+            height: 30px;
+            border-radius:8px ;
+            border: none;
+            background-color: #0016A6;
+            color: whitesmoke;
+            font-weight: bold;
+
+        }
+        button:active {
+            background-color: #0951BD;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+            button:hover {
+            opacity: 0.8;
+       }
+       p{
+            text-align: center;
+            padding: 3px 2px;
+            color: white;
+       }
+   
+         /*tela de obrigado*/
+
+       div {
+            background-color: #DEDEDE;
+            padding: 10px;
+            margin: auto;
+            background-color: white;
+            width: 40%;
+            height: 200px;
+            border-radius: 9px;
+       }
+        div p{
+            margin-top: 10px;
+            color: black;
+            padding: 5px;
+            text-align:center;
+            font-size: 1em;
+       }
+        .inicial::before {
+            content: '\2190';
+       }
+       .inicial {
+            margin-top: 65px;
+            text-align: left;
+            color: black;
+        }
+        div >a {
+            
+            text-decoration: none;
+            color: black;
+        }
+        div>a:hover {
+            color: #DEDEDE;
+            text-decoration: underline;
+        }
+        .inicial:hover {
+            text-align: center;
+            color: #DEDEDE;
+            background-color: #0951BD;
+            width: 125px;
+            border-radius: 7px;
+            transition-duration: 0.7s;
+        }
+    
+       
